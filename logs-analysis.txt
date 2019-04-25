@@ -1,0 +1,14 @@
+
+1. Three most popular articles of all time are:
+	Candidate is jerk, alleges rival : accessed 338647 times
+	Bears love berries, alleges bear : accessed 253801 times
+	Bad things gone, say good people : accessed 170098 times
+
+2. Most popular article authors of all time are:
+	Ursula La Multa : accessed 507594 times
+	Rudolf von Treppenwitz : accessed 423457 times
+	Anonymous Contributor : accessed 170098 times
+	Markoff Chaney : accessed 84557 times
+
+3. Date more than 1% error occured:
+	2016-07-17 : 2.2626862468% error
