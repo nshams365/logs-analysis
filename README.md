@@ -1,4 +1,4 @@
-#Log Analysis Project
+# Log Analysis Project
 
 ### by Noor Shams
 This is a project for Udacity Full Stack Nano Degree program. 
