@@ -15,10 +15,7 @@ The [PostgreSQL](https://www.postgresql.org) database contains server access log
 
 ## System Requirements and Environment Setup
 
-	[VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
-	[Vagrant](https://www.vagrantup.com/fdownloads)
-	Python3 and psycopg2 module
-	PostgreSQL database
+
 	
 After installing VirtualBox and Vagrant, clone or download [FSND-VM](https://github.com/udacity/fullstack-nanodegree-vm.git) and follow the instruction on the repository to provision the environment to run this project. 	
 
