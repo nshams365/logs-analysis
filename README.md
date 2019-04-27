@@ -7,7 +7,7 @@ Logs analysis project submitted in partial fulfillment of [Full Stack Web Develo
 ## Project Goal
 To create a reporting tool that prints out a report based on data into the database. It is a [Python](https://www.python.org) program to connect to the database and performs queries to produce the report.
 
-The [PostgreSQL](https://www.postgresql.org) database contains server access log related to published articles and authors. The Python reporting tool will analyse those data into database and answer the following 3 questions asked for the fictional newspaper site.
+The [PostgreSQL](https://www.postgresql.org) database contains server access log related to published articles and authors of a fictional newspaper site. The Python reporting tool will analyse those data into database and answer the following 3 questions -
 
 	1. What are the most popular three articles of all time? 
 	2. Who are the most popular article authors of all time?
@@ -61,6 +61,7 @@ If any error message thrown related to psycopg2 module import, then run
  ```
 ### Expected output
 *logs-analysis.py* program will produce plain text report on the terminal. Exact sample output is provided as text file in *logs-analysis.txt*
+
 ### Shutting VM down
 Press Ctrl-D to log out of VM and shut it down with this command
 ```bash
