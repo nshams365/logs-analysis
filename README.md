@@ -27,9 +27,7 @@ Download the [data](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b
 
 ### Spin up the vm with vagrant file provided for FSND-VM
 Step1:  Navigate to the right directory
-```bash
-$ ```cd``` /vagrant
-```
+
 Step 2: From terminal use the following command 
 ```bash
 $ vagrant up
