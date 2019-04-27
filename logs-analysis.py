@@ -64,7 +64,7 @@ def most_popular_three_articles(query):
 		print('\t' + str(i[0]) + ' : ' +"accessed" + ' ' + str(i[1]) + ' ' +'times')
 
 
-#Finction for most popular authors of all time
+#Function for most popular authors of all time
 def popular_authors(query):
 	report = fetch_query_report(query)
 	print('')
