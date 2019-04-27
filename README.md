@@ -15,10 +15,10 @@ The [PostgreSQL](https://www.postgresql.org) database contains server access log
 
 ## System Requirements and Environment Setup
 
-	* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) Linux based virtual machine 
-	* [Vagrant](https://www.vagrantup.com/fdownloads) to manage virtual machine
-	* Python3 & psycopg2 module
-	* PostgreSQL database
+	1. Linux based virtual machine [VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
+	2. [Vagrant](https://www.vagrantup.com/fdownloads)to manage virtual machine
+	3. Python3 & psycopg2 module
+	4. PostgreSQL database
 	
 After installing VirtualBox and Vagrant, clone or download [FSND-VM](https://github.com/udacity/fullstack-nanodegree-vm.git) and follow the instruction on the repository to provision the environment to run this project. 	
 
@@ -61,7 +61,7 @@ If any error message thrown related to psycopg2 module import, then run
  $ python logs-analysis.py
  ```
 ### Expected output
-The >logs-analysis.py program will produce plain text report on the console. Exact sample out put is provided as text file >logs-analysis.txt
+```logs-analysis.py``` program will produce plain text report on the console. Exact sample out put is provided as text file ```logs-analysis.txt```
 ### Shutting VM down
 Press Ctrl-D to log out of VM and shut it down with this command:
 ```bash
