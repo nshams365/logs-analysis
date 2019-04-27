@@ -15,10 +15,10 @@ The [PostgreSQL](https://www.postgresql.org) database contains server access log
 
 ## System Requirements and Environment Setup
 
-	-[VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
-	-[Vagrant](https://www.vagrantup.com/fdownloads)
-	-Python3 & psycopg2 module
-	-PostgreSQL database
+	[VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
+	[Vagrant](https://www.vagrantup.com/fdownloads)
+	Python3 and psycopg2 module
+	PostgreSQL database
 	
 After installing VirtualBox and Vagrant, clone or download [FSND-VM](https://github.com/udacity/fullstack-nanodegree-vm.git) and follow the instruction on the repository to provision the environment to run this project. 	
 
@@ -29,7 +29,7 @@ Download the [data](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b
 ### Spin up the vm with vagrant file provided for FSND-VM
 Step1:  Navigate to the right directory
 ```bash
-$ cd /vagrant
+$ /vagrant
 ```
 Step 2: From terminal use the following command 
 ```bash
