@@ -15,10 +15,10 @@ The [PostgreSQL](https://www.postgresql.org) database contains server access log
 
 ## System Requirements and Environment Setup
 
-	1. Linux based virtual machine [VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
-	2. [Vagrant](https://www.vagrantup.com/fdownloads)to manage virtual machine
-	3. Python3 & psycopg2 module
-	4. PostgreSQL database
+	-[VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
+	-[Vagrant](https://www.vagrantup.com/fdownloads)
+	-Python3 & psycopg2 module
+	-PostgreSQL database
 	
 After installing VirtualBox and Vagrant, clone or download [FSND-VM](https://github.com/udacity/fullstack-nanodegree-vm.git) and follow the instruction on the repository to provision the environment to run this project. 	
 
@@ -31,7 +31,7 @@ Step1:  Navigate to the right directory
 ```bash
 $ cd /vagrant
 ```
-Step 2: from terminal use the following command 
+Step 2: From terminal use the following command 
 ```bash
 $ vagrant up
 ```
@@ -43,16 +43,16 @@ For logging into the VM use command
 $ vagrant ssh
 ```
 ### Loading the database
-Step 1. unzip the zip file with the command:
+Step 1. Unzip the zip file with the command
 ```bash
 $ unzip newsdata.zip
 ```
-Step 2. Command to load the logs into the database:
+Step 2. Command to load the logs into the database
 ```bash
 $ psql -d news -f newsdata.sql
 ```
 ### Running the reporting tool
-Following command will run the reporting tool:
+Following command will run the reporting tool
 ```bash
 $ python3 logs-analysis.py
 ```
@@ -61,7 +61,7 @@ If any error message thrown related to psycopg2 module import, then run
  $ python logs-analysis.py
  ```
 ### Expected output
-*logs-analysis.py* program will produce plain text report on the console. Exact sample output is provided as text file in *logs-analysis.txt*
+*logs-analysis.py* program will produce plain text report on the terminal. Exact sample output is provided as text file in *logs-analysis.txt*
 ### Shutting VM down
 Press Ctrl-D to log out of VM and shut it down with this command
 ```bash
