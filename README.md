@@ -29,7 +29,7 @@ Download the [data](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b
 ### Spin up the vm with vagrant file provided for FSND-VM
 Step1:  Navigate to the right directory
 ```bash
-$ cd vagrant
+$ cd /vagrant
 ```
 Step 2: from terminal use the following command 
 ```bash
@@ -61,7 +61,7 @@ If any error message thrown related to psycopg2 module import, then run
  $ python logs-analysis.py
  ```
 ### Expected output
-*logs-analysis.py* program will produce plain text report on the console. Exact sample out put is provided as text file named *logs-analysis.txt*
+*logs-analysis.py* program will produce plain text report on the console. Exact sample output is provided as text file in *logs-analysis.txt*
 ### Shutting VM down
 Press Ctrl-D to log out of VM and shut it down with this command
 ```bash
