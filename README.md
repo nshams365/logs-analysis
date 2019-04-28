@@ -1,7 +1,5 @@
 # FSND Project 1 : Logs Analysis
 
-### by Noor Shams
-
 Logs analysis project submitted in partial fulfillment of [Full Stack Web Developer Nanodegree](https://eu.udacity.com/course/full-stack-web-developer-nanodegree--nd004) course on Udacity.
 
 ## Project Goal
@@ -67,3 +65,5 @@ Press Ctrl-D to log out of VM and shut it down with this command
 ```bash
 $ vagrant halt
 ```
+### Author
+Noor Shams
