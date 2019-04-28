@@ -66,4 +66,4 @@ Press Ctrl-D to log out of VM and shut it down with this command
 $ vagrant halt
 ```
 ### Author
-Noor Shams
+- Noor Shams
