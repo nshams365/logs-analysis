@@ -87,7 +87,6 @@ def errored_days(query):
 
 # Execute functions
 if __name__ == '__main__':
-
     most_popular_three_articles(query1)
     popular_authors(query2)
     errored_days(query3)
